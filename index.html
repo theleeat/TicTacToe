@@ -8,57 +8,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <style>
-      table {
-        border-collapse: collapse;
-        font-family: Calibri, sans-serif;
-      }
-      colgroup,
-      tbody {
-        border: solid medium;
-      }
-      td {
-        border: solid;
-        height: 9em;
-        width: 9em;
-        text-align: center;
-        padding: 0;
-      }
-    </style>
-    <table>
-      <caption>
-        Tic Tac Toe
-      </caption>
-      <colgroup>
-        <col />
-        <col />
-        <col />
-      </colgroup>
-      <colgroup>
-        <col />
-        <col />
-        <col />
-      </colgroup>
-      <colgroup>
-        <col />
-        <col />
-        <col />
-      </colgroup>
-      <colgroup>
-        <col />
-        <col />
-        <col />
-      </colgroup>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td></td>
-          <td></td>
-              <td>
-                <tr>
-                  <td>7</td>
-                  <td></td>
-                  <td></td>
+    <div class="container">
+      <h1 id="playText">Play</h1>
+      <button id="restartBtn"></button>
+      <div id="gameboard">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
+    </div>
     <script src="./game.js"></script>
   </body>
 </html>

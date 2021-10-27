@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  color: #cb9c45;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 40px;
+  height: 100vh;
+  display: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gameBoard {
+}
+
+.box {
+  height: 150px;
+  width: auto;
+}
