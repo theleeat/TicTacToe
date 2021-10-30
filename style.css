@@ -5,11 +5,11 @@
 }
 
 :root {
-  --violet: brown;
+  --purple: brown;
 }
 
 body {
-  color: pink;
+  color: rgb(171, 68, 85);
   font-family: sans-serif;
 }
 
@@ -25,7 +25,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(64, 141, 224);
+  background-color: rgb(152, 216, 147);
 }
 
 #gameboard {
@@ -45,17 +45,21 @@ h1 {
   font-size: 150px;
 }
 
+.box:hover {
+  cursor: pointer;
+}
+
 button {
   padding: 10px 20px;
   border-radius: 10px;
-  background-color: let(-- orange);
+  background-color: var(-- orange);
   color: black;
   border-color: let(-- blue);
-  font-size: 15px;
+  font-size: 18px;
   transition: 200ms transform;
 }
 
 button:hover {
   cursor: pointer;
-  transform: translateY(-2px);
+  transform: -2px;
 }
